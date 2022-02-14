@@ -4,16 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!--=============== FAVICON ===============-->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-
     <!--=============== BOXICONS ===============-->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-
     <!--=============== SWIPER CSS ===============-->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -25,7 +21,6 @@
     <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">Jonathan</a>
-
             <div class="nav__menu">
                 <ul class="nav__list">
                     <li class="nav__item">
@@ -33,25 +28,21 @@
                             <i class='bx bx-home-alt nav__icon'></i>
                         </a>
                     </li>
-
                     <li class="nav__item">
                         <a href="#about" class="nav__link">
                             <i class='bx bx-user nav__icon'></i>
                         </a>
                     </li>
-
                     <li class="nav__item">
                         <a href="#skills" class="nav__link">
                             <i class='bx bx-book nav__icon'></i>
                         </a>
                     </li>
-
                     <li class="nav__item">
                         <a href="#work" class="nav__link">
                             <i class='bx bx-briefcase-alt-2 nav__icon'></i>
                         </a>
                     </li>
-
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
                             <i class='bx bx-message-square-detail nav__icon'></i>
@@ -59,7 +50,6 @@
                     </li>
                 </ul>
             </div>
-
             <!-- Theme change button -->
             <i class='bx bx-moon change-theme' id="theme-button"></i>
         </nav>
@@ -83,12 +73,10 @@
                         <a href="#about" class="button">About me</a>
                     </div>
                 </div>
-
                 <div class="home__handle">
                     <!-- Insert your image, according to the example size of the portfolio -->
                     <img src="assets/img/perfil.png" alt="" class="home__img">
                 </div>
-
                 <div class="home__social">
                     <a href="https://www.linkedin.com/in/jonathan-gonzalez-delacruz/" target="_blank"
                         class="home__social-link">
@@ -98,7 +86,6 @@
                         <i class='bx bxl-github'></i>
                     </a>
                 </div>
-
                 <a href="#about" class="home__scroll">
                     <i class='bx bx-mouse home__scroll-icon'></i>
                     <span class="home__scroll-name">Scroll Down</span>
@@ -110,7 +97,6 @@
         <section class="about section" id="about">
             <span class="section__subtitle">My Intro</span>
             <h2 class="section__title">About Me</h2>
-
             <div class="about__container container grid">
                 <img src="assets/img/about.jpg" alt="" class="about__img">
 
@@ -134,13 +120,11 @@
                             <span class="about__subtitle">English & Spanish</span>
                         </div>
                     </div>
-
                     <p class="about__description">
                         Full-Stack Java developer. I have been programming since I was 13 years old. Although the
                         journey has been tough my love for programming is stronger than ever. 11 years of learning and
                         yet there is still somuch more to learn.
                     </p>
-
                     <a href="#contact" class="button">Contact Me</a>
                 </div>
             </div>
@@ -498,7 +482,20 @@
                         class="work__button demo__button">
                         Demo <i class='bx bx-right-arrow-alt work__icon'></i>
                     </a>
+                </div>
 
+                <div class="work__card mix java springboot html javascript">
+                    <img src="assets/img/work5.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Corona Virus Tracker</h3>
+
+                    <a href="https://github.com/Gjonathan252/heroku-boot-coronavirustracker" target="_blank" class="work__button">
+                        Git <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                    <a href="https://heroku-boot-coronavirustracker.herokuapp.com/" target="_blank"
+                        class="work__button demo__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
                 </div>
 
                 <div class="work__card mix java mongodb springboot">
@@ -518,16 +515,6 @@
                     <h3 class="work__title">Excel Data Manager</h3>
 
                     <a href="https://github.com/Gjonathan252/Excel-Bank-Management-Java" target="_blank"
-                        class="work__button">
-                        Git <i class='bx bx-right-arrow-alt work__icon'></i>
-                    </a>
-                </div>
-                <div class="work__card mix java springboot html javascript">
-                    <img src="assets/img/work5.jpg" alt="" class="work__img">
-
-                    <h3 class="work__title">Corona Virus Tracker</h3>
-
-                    <a href="https://github.com/Gjonathan252/coronavirus-tracker" target="_blank"
                         class="work__button">
                         Git <i class='bx bx-right-arrow-alt work__icon'></i>
                     </a>
@@ -574,29 +561,26 @@
                 <!-- Contact me goes here -->
                 <div class="contact__content">
                     <h3 class="contact__title">Write me a message</h3>
-
-                    <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" class="contact__form">
+                    <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true"
+                        class="contact__form">
                         <div class="contact__form-div">
                             <label class="contact__form-tag">Names</label>
                             <input type="text" placeholder="Insert your name" name="name" class="contact__form-input">
                         </div>
-
                         <div class="contact__form-div">
                             <label class="contact__form-tag">Mail</label>
                             <input type="email" placeholder="Insert your email" name="email"
                                 class="contact__form-input">
                         </div>
-
                         <div class="contact__form-div contact__form-area">
                             <label class="contact__form-tag">Message</label>
                             <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message"
                                 class="contact__form-input"></textarea>
                         </div>
-                        <div data-netlify-recaptcha="true"></div>
+                        <div class="contact__form-div" data-netlify-recaptcha="true"></div>
                         <button class="button" type="submit">Send Message</button>
                     </form>
                 </div>
-
             </div>
         </section>
     </main>
@@ -605,7 +589,6 @@
     <footer class="footer">
         <div class="footer__container container">
             <h1 class="footer__title">Jonathan</h1>
-
             <ul class="footer__list">
                 <li>
                     <a href="#about" class="footer__link">About</a>
@@ -617,7 +600,6 @@
                     <a href="#work" class="footer__link">Projects</a>
                 </li>
             </ul>
-
             <ul class="footer__social">
                 <a href="https://www.linkedin.com/in/jonathan-gonzalez-delacruz/" target="_blank"
                     class="footer__social-link">
@@ -629,24 +611,17 @@
                 <a href="https://twitter.com/ign_alpha" target="_blank" class="footer__social-link">
                     <i class='bx bxl-twitter'></i>
                 </a>
-
             </ul>
-
-            <span class="footer__copy">
-                &#169; Jonathan Gonzalez Delacruz 2022
-            </span>
+            <span class="footer__copy">&#169; Jonathan Gonzalez Delacruz 2022</span>
         </div>
     </footer>
 
     <!--=============== SCROLLREVEAL ===============-->
     <script src="assets/js/scrollreveal.min.js"></script>
-
     <!--=============== SWIPER JS ===============-->
     <script src="assets/js/swiper-bundle.min.js"></script>
-
     <!--=============== MIXITUP FILTER ===============-->
     <script src="assets/js/mixitup.min.js"></script>
-
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
 </body>
