@@ -175,7 +175,7 @@ body.light-theme {
 }
 
 .light-theme .skills__content,
-.light-theme .services__card,
+.light-theme .certs__card,
 .light-theme .work__card,
 .light-theme .testimonial__card,
 .light-theme .contact__card {
@@ -556,28 +556,28 @@ background-color: #a395ea50;
   font-size: var(--tiny-font-size);
 }
 
-/*=============== SERVICES ===============*/
-.services__container {
+/*=============== certs ===============*/
+.certs__container {
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   padding-top: 1rem;
 }
 
-.services__card {
+.certs__card {
   background-color: var(--container-color);
   padding: 3rem 1.5rem 1.5rem;
   border-radius: 1rem;
 }
-.services__card:hover {
+.certs__card:hover {
   background-color: var(--hover-color);
 }
 
-.services__title {
+.certs__title {
   font-size: var(--h3-font-size);
   margin-bottom: 2.5rem;
 }
 
-.services__button {
+.certs__button {
   color: var(--first-color);
   font-size: var(--small-font-size);
   display: flex;
@@ -586,11 +586,11 @@ background-color: #a395ea50;
   cursor: pointer;
 }
 
-.services__button:hover .services__icon {
+.certs__button:hover .certs__icon {
   transform: translateX(.25rem);
 }
 
-.services__icon {
+.certs__icon {
   font-size: 1rem;
   transition: .4s;
 }
@@ -603,7 +603,7 @@ background-color: #a395ea50;
   cursor: pointer;
 } */
 
-.services__modal {
+.certs__modal {
   position: fixed;
   inset: 0;
   background-color: hsla(var(--second-hue), 28%, 16%, 0.7);
@@ -616,50 +616,50 @@ background-color: #a395ea50;
   z-index: var(--z-modal);
 }
 
-.services__modal-content {
+.certs__modal-content {
   position: relative;
   background-color: var(--body-color);
   padding: 4.5rem 1.5rem 2.5rem;
   border-radius: 1.5rem;
 }
 
-.services__modal-title, 
-.services__modal-description {
+.certs__modal-title, 
+.certs__modal-description {
   text-align: center;
 }
 
-.services__modal-title {
+.certs__modal-title {
   font-size: var(--h3-font-size);
   color: var(--first-color);
   margin-bottom: 1rem;
 }
 
-.services__modal-description {
+.certs__modal-description {
   font-size: var(--small-font-size);
   margin-bottom: 2rem;
 }
 
-.services__modal-list {
+.certs__modal-list {
   display: grid;
   row-gap: .75rem;
 }
 
-.services__modal-item {
+.certs__modal-item {
   display: flex;
   align-items: flex-start;
   column-gap: .5rem;
 }
 
-.services__modal-icon {
+.certs__modal-icon {
   font-size: 1.5rem;
   color: var(--first-color);
 }
 
-.services__modal-info {
+.certs__modal-info {
   font-size: var(--small-font-size);
 }
 
-.services__modal-close {
+.certs__modal-close {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
@@ -951,7 +951,7 @@ background-color: #a395ea50;
     font-size: var(--small-font-size);
   }
 
-  .services__container {
+  .certs__container {
     grid-template-columns: 145px;
     justify-content: center;
   }
@@ -987,15 +987,15 @@ background-color: #a395ea50;
     padding: 2rem 4rem;
   }
 
-  .services__container {
+  .certs__container {
     grid-template-columns: repeat(2, 160px);
     justify-content: center;
   }
-  .services__modal-content {
+  .certs__modal-content {
     width: 500px;
     padding: 4.5rem 2.5rem 2.5rem;
   }
-  .services__modal-description {
+  .certs__modal-description {
     padding: 0 3.5rem;
   }
 
@@ -1098,11 +1098,11 @@ background-color: #a395ea50;
     column-gap: 3.5rem;
   }
 
-  .services__container {
+  .certs__container {
     grid-template-columns: repeat(3, 192px);
     column-gap: 3rem;
   }
-  .services__card {
+  .certs__card {
     padding: 5rem 2rem 1.5rem;
   }
 
