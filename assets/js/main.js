@@ -7,9 +7,9 @@ function scrollHeader(){
 window.addEventListener('scroll', scrollHeader)
 
 /*=============== SERVICES MODAL ===============*/
-const modalViews = document.querySelectorAll('.services__modal'),
-      modalBtns = document.querySelectorAll('.services__button'),
-      modalClose = document.querySelectorAll('.services__modal-close')
+const modalViews = document.querySelectorAll('.certs__modal'),
+      modalBtns = document.querySelectorAll('.certs__button'),
+      modalClose = document.querySelectorAll('.certs__modal-close')
 
 let modal = function(modalClick){
   	modalViews[modalClick].classList.add('active-modal')
